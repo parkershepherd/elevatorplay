@@ -9,3 +9,5 @@ runCommand(function (code) {
   elevatorMusic.stop();
   process.exit(code);
 })
+
+process.on('uncaughtException', elevatorMusic.stop);
