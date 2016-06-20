@@ -1,6 +1,6 @@
 {
   "name": "elevatorplay",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Plays elevator music while you wait for a command to finish",
   "bin": {
     "elevatorplay": "index.js"
