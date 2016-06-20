@@ -1,0 +1,24 @@
+{
+  "name": "elevatorplay",
+  "version": "1.0.0",
+  "description": "Plays elevator music while you wait for a command to finish",
+  "bin": {
+    "elevatorplay": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "elevator",
+    "music"
+  ],
+  "author": "Parker Shepherd",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "lame": "^1.2.3",
+    "player": "^0.6.1",
+    "speaker": "^0.3.0"
+  }
+}
